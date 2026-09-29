@@ -1,0 +1,950 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FRAMEO — Timber A-Frame Homes</title>
+<meta name="description" content="FRAMEO builds custom timber A-frame homes across Europe. Explore our models, pricing and delivery — and request your project today.">
+
+<!-- Open Graph / Social preview -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tinapolyakova27-hub.github.io/frameo/">
+<meta property="og:title" content="FRAMEO — Timber A-Frame Homes">
+<meta property="og:description" content="Custom timber A-frame homes built across Europe. Explore models, pricing and delivery.">
+<meta property="og:image" content="https://tinapolyakova27-hub.github.io/frameo/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><polygon points='50,5 95,95 5,95' fill='%23c8a97e'/></svg>">
+<!-- ── ANALYTICS ── -->
+<!-- Google Analytics GA4: замени G-XXXXXXXXXX на свой Measurement ID -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script> -->
+
+<!-- Яндекс Метрика: замени XXXXXXXX на свой номер счётчика -->
+<!-- <script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+   ym(XXXXXXXX, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true });
+</script>
+<noscript><div><img loading="eager" decoding="async" src="https://mc.yandex.ru/watch/XXXXXXXX" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
+<!-- ── END ANALYTICS ── -->
+
+  <style>
+    :root{--bg:#14190F;--cream:#F9F7F3;--gold:#C8A97E;--beige:#EDE9E1}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--cream);font-family:'Jost',sans-serif;overflow-x:hidden}
+  </style>
+  <link rel="preload" href="assets/css/style.css" as="style">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- ── HEADER ── -->
+<header id="hdr">
+  <div class="wrap">
+    <div class="nav-inner">
+      <a href="#" class="logo logo-svg"><img loading="eager" decoding="async" src="assets/images/img-00.png" alt="SiberianFrame" class="logo-img-real"></a>
+      <nav class="nav-pill" aria-label="Main navigation">
+        <a href="#home" data-i18n="nav_home" onclick="closeMob()">Home</a>
+        <a href="#models" data-i18n="nav_projects" onclick="closeMob()">Models</a>
+        <a href="#services" data-i18n="nav_services" onclick="closeMob()">Advantages</a>
+        <a href="#delivery" data-i18n="nav_delivery" onclick="closeMob()">Delivery</a>
+        <a href="#process" data-i18n="nav_process" onclick="closeMob()">Process</a>
+        <a href="#reviews" data-i18n="nav_reviews" onclick="closeMob()">Reviews</a>
+        <a href="#faq" data-i18n="nav_faq" onclick="closeMob()">FAQ</a>
+        <a href="#contact" data-i18n="nav_contacts" onclick="closeMob()">Contact</a>
+      </nav>
+      <div class="nav-right">
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="ro">RO</button>
+          <button class="lang-btn" data-lang="pl">PL</button>
+        </div>
+        <a href="#contact" class="hdr-cta">
+          <span data-i18n="hero_btn1">Get a Quote</span>
+
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav class="mob-menu" id="mobMenu">
+  <button class="mob-close" onclick="closeMob()" aria-label="Close menu">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+  </button>
+  <a href="#home"     onclick="closeMob()" data-i18n="nav_home">Home</a>
+  <a href="#models"   onclick="closeMob()" data-i18n="nav_projects">Models</a>
+  <a href="#services" onclick="closeMob()" data-i18n="nav_services">Advantages</a>
+  <a href="#process"  onclick="closeMob()" data-i18n="nav_process">Process</a>
+  <a href="#delivery" onclick="closeMob()" data-i18n="nav_delivery">Delivery</a>
+  <a href="#reviews"  onclick="closeMob()" data-i18n="nav_reviews">Reviews</a>
+  <a href="#faq"      onclick="closeMob()" data-i18n="nav_faq">FAQ</a>
+  <a href="#contact"  onclick="closeMob()" data-i18n="nav_contacts">Contact</a>
+  <a href="#contact"  onclick="closeMob()" class="mob-cta-btn" data-i18n="mob_cta">Get a Quote</a>
+</nav>
+
+<!-- ── HERO ── -->
+<div id="hero-scroll-wrapper" style="height:550vh;position:relative;">
+<section class="hero" id="home" style="position:sticky;top:0;">
+  
+  <video id="hero-video" src="hero.mp4" preload="auto" autoplay loop muted playsinline></video>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-brand-center" aria-hidden="true">
+    <span class="hbc-main">SIBERIAN</span>
+    <span class="hbc-sub">·&nbsp;F&nbsp;R&nbsp;A&nbsp;M&nbsp;E&nbsp;·</span>
+  </div>
+
+  <div class="hero-col-left">
+    <p data-i18n="hero_eyebrow">We craft A-frame homes that blend Siberian timber with European living</p>
+  </div>
+
+  <p class="hero-col-right" data-i18n="hero_tagline">Designing the<br>home of the future</p>
+
+  <div class="hero-bottom-center">
+    <a href="#models" class="hero-cta-pill">
+      <span data-i18n="hero_btn1">Explore Models</span>
+      
+    </a>
+  </div>
+
+  <div class="hero-bottom-bar">
+    <div class="hero-title-block">
+      <span class="hero-title-eyebrow" data-i18n="hero_eyebrow">A-frame &amp; modular homes</span>
+      <span class="hero-title-line1" data-i18n="hero_h_l1">A home born from</span>
+      <div class="hero-line2-row">
+        <span class="hero-title-line2" data-i18n="hero_h_l2">the forest</span>
+        <a href="#models" class="hero-cta-pill" style="pointer-events:auto">
+          <span data-i18n="hero_btn1">Explore Projects</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-stats-right">
+      <div class="hsr-card">
+        <span class="hsr-num" style="font-family:'Cormorant Garamond',serif;font-style:italic;">500<sup>+</sup></span>
+        <span class="hsr-desc" data-i18n="social_proof_text">Happy families have already<br>found their dream home</span>
+        <div class="hsr-avatars">
+          <div class="hsr-avatar" style="background:#8B7355">A</div>
+          <div class="hsr-avatar" style="background:#6B8E6B">M</div>
+          <div class="hsr-avatar" style="background:#7A6B8E">T</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+</div>
+
+<!-- ── MODELS ── -->
+
+<!-- ── ABOUT STATEMENT ── -->
+<section class="about-editorial" style="background:#F9F7F3;padding:0;margin:0;display:flex;flex-direction:column;">
+  <div style="display:grid;grid-template-columns:2fr 1fr;align-items:start;">
+    <div style="padding:80px 80px 0 80px;box-sizing:border-box;">
+      <p style="font-family:'Bebas Neue',sans-serif;font-size:clamp(1.9rem,2.7vw,3.2rem);line-height:1.07;letter-spacing:.02em;color:#1C3520;margin:0;padding:0;">We believe a home should grow from the land it stands on. Each SiberianFrame house is cut from ancient Siberian larch and pine — wood that has spent decades absorbing cold and silence — then assembled on your plot in a matter of days. Three models, two finishes, one philosophy: nothing superfluous.</p>
+    </div>
+    <div></div>
+  </div>
+  <div style="padding:32px 80px 80px 80px;box-sizing:border-box;">
+    <div class="ab-carousel" style="position:relative;overflow:hidden;border-radius:32px;aspect-ratio:16/7;">
+      <div class="ab-carousel-track">
+        <div class="ab-slide ab-slide-active" style="position:absolute;inset:0;">
+          <img loading="lazy" decoding="async" src="assets/images/img-01.jpg" alt="SiberianFrame A-frame in the forest" style="width:100%;height:100%;object-fit:cover;object-position:center 40%;display:block;">
+          <div class="ab-slide-cap">Cedar S — Black Peak</div>
+        </div>
+        <div class="ab-slide " style="position:absolute;inset:0;">
+          <img loading="lazy" decoding="async" src="assets/images/img-02.jpg" alt="Interior detail" style="width:100%;height:100%;object-fit:cover;object-position:center 40%;display:block;">
+          <div class="ab-slide-cap">Interior · Cedar M</div>
+        </div>
+        <div class="ab-slide " style="position:absolute;inset:0;">
+          <img loading="lazy" decoding="async" src="assets/images/img-03.jpg" alt="A-frame exterior at sunset" style="width:100%;height:100%;object-fit:cover;object-position:center 40%;display:block;">
+          <div class="ab-slide-cap">Exterior · Ash L</div>
+        </div>
+        <div class="ab-slide " style="position:absolute;inset:0;">
+          <img loading="lazy" decoding="async" src="assets/images/img-04.jpg" alt="Siberian timber frame detail" style="width:100%;height:100%;object-fit:cover;object-position:center 40%;display:block;">
+          <div class="ab-slide-cap">Timber detail · Cedar S</div>
+        </div>
+      </div>
+
+      <!-- Prev / Next arrows -->
+      <button class="ab-arrow ab-prev" onclick="abSlide(-1)" aria-label="Previous">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button class="ab-arrow ab-next" onclick="abSlide(1)" aria-label="Next">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+
+      <!-- Dots -->
+      <div class="ab-dots">
+        <button class="ab-dot ab-dot-active" onclick="abGoTo(0)"></button>
+        <button class="ab-dot" onclick="abGoTo(1)"></button>
+        <button class="ab-dot" onclick="abGoTo(2)"></button>
+        <button class="ab-dot" onclick="abGoTo(3)"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mc-sec sec" id="models">
+  <div class="mc-header">
+    <div class="mc-header-eyebrow" data-i18n="models_eyebrow">Our Models</div>
+    <div class="mc-header-title" data-i18n="models_title">Three sizes.<br>One idea — home in the forest.</div>
+  </div>
+  <div class="mc-wrap">
+    <!-- LEFT: images stacked, shown via opacity -->
+    <div class="mc-left" id="mc-img-panel">
+      <img loading="lazy" decoding="async" class="mc-img mc-img-active" id="mc-img-s" src="assets/images/img-05.jpg" alt="Sosna S">
+      <img loading="lazy" decoding="async" class="mc-img" id="mc-img-m" src="assets/images/img-06.jpg" alt="Kedr M">
+      <img loading="lazy" decoding="async" class="mc-img" id="mc-img-l" src="assets/images/img-07.jpg" alt="Listvennitsa L">
+      <!-- overlay buttons -->
+      <div class="mc-overlay">
+        <button class="mc-overlay-btn" id="mc-btn-floorplan" onclick="document.getElementById('mc-floorplan-modal').style.display='flex'">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="1"/>
+            <path d="M3 9h18M9 9v12M3 15h6"/>
+          </svg>
+          <span>2D Plan</span>
+        </button>
+        <button class="mc-overlay-btn" id="mc-btn-3dtour">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+          </svg>
+          <span data-i18n="btn_3d_tour">3D Tour</span>
+        </button>
+      </div>
+    </div>
+    <!-- RIGHT: config panel -->
+    <div class="mc-right">
+      <div class="mc-eyebrow" data-i18n="models_eyebrow">Our Models</div>
+
+      <!-- SIZE TABS — at top -->
+      <div class="mc-options-group mc-size-group">
+        <div class="mc-opt-label" data-i18n="size_label">Size</div>
+        <div class="mc-size-tabs" id="mc-size-tabs">
+          <button class="mc-tab mc-tab-active" data-sz="s">S</button>
+          <button class="mc-tab" data-sz="m">M</button>
+          <button class="mc-tab" data-sz="l">L</button>
+        </div>
+      </div>
+
+      <!-- Model name + description — updated by JS -->
+      <div class="mc-name" id="mc-name">Sosna S</div>
+      <div class="mc-desc" id="mc-desc">Compact A-frame chalet for 2–3 people. Perfect weekend retreat, hunting lodge or rental. Assembly in 7 days.</div>
+
+      <!-- Stats row — updated by JS -->
+      <div class="mc-stats">
+        <div class="mc-stat">
+          <div class="mc-stat-val" id="mc-stat-area">40<span>m²</span></div>
+          <div class="mc-stat-key" data-i18n="spec_area">Area</div>
+        </div>
+        <div class="mc-stat">
+          <div class="mc-stat-val" id="mc-stat-ridge">6.5<span>m</span></div>
+          <div class="mc-stat-key" data-i18n="spec_ridge">Ridge height</div>
+        </div>
+        <div class="mc-stat">
+          <div class="mc-stat-val" id="mc-stat-ins">150<span>mm</span></div>
+          <div class="mc-stat-key" data-i18n="spec_ins">Insulation</div>
+        </div>
+      </div>
+
+      <!-- Configuration selector -->
+      <div class="mc-options-group">
+        <div class="mc-opt-label" data-i18n="cladding_title">Configuration</div>
+        <div class="mc-clad-opts" id="mc-clad-opts">
+          <button class="mc-clad-btn mc-clad-active" data-clad="pine">
+            <span class="mc-clad-name" data-i18n="clad_pine">House Kit</span>
+            <span class="mc-clad-note" data-i18n="clad_pine_note">Supply &amp; delivery · included</span>
+          </button>
+          <button class="mc-clad-btn" data-clad="larch">
+            <span class="mc-clad-name" data-i18n="clad_larch">Turnkey</span>
+            <span class="mc-clad-note" data-i18n="clad_larch_note">Full service · price on request</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Price -->
+      <div class="mc-price-row">
+        <span class="mc-price-from" data-i18n="price_from_lbl">from</span>
+        <span class="mc-price-num" id="mc-price">13 000 <span class="mc-price-cur">€</span></span>
+      </div>
+      <div class="mc-price-note" data-i18n="price_kit_note">Excluding VAT</div>
+
+      <!-- Order CTA -->
+      <button class="mc-cta-btn" id="mc-order-btn" data-i18n="cta_order">Order</button>
+    </div>
+  </div>
+</section>
+
+<section class="feat-sec sec" id="services">
+  <div class="feat-layout-v2">
+
+    <!-- Section header -->
+    <div class="feat-hdr">
+      <div class="feat-hdr-left">
+        <div class="feat-eyebrow-new" data-i18n="srv_eyebrow">/ Our services</div>
+        <h2 class="feat-title-new" data-i18n="feat_left_title">Built from<br>Siberian Timber</h2>
+      </div>
+      <button class="feat-cta-left" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+        <span data-i18n="feat_cta">Start Today</span>
+        <span class="feat-cta-arrow">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </span>
+      </button>
+    </div>
+
+    <!-- 4-column card grid -->
+    <div class="feat-grid-v2">
+<!-- Card 1: Timber -->
+        <div class="feat-card" data-idx="0">
+          <img loading="lazy" decoding="async" class="feat-card-img" src="assets/images/img-08.jpg" alt="Siberian Timber">
+          <div class="feat-card-overlay"></div>
+          <div class="feat-card-content">
+            <div class="feat-card-top">
+              <div class="feat-card-title" data-i18n="feat1_title">Siberian<br>Timber</div>
+              <div class="feat-card-eyebrow" data-i18n="feat1_eyebrow">Our Material</div>
+            </div>
+            <div class="feat-card-bottom">
+              <div class="feat-card-desc" data-i18n="feat1_desc">Certified Siberian larch — among the hardest and most resin-rich conifers on earth. Naturally resistant to rot, insects and extreme cold.</div>
+              <div class="feat-card-action">
+                <button class="feat-card-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" data-i18n="feat_learn">Learn more</button>
+                <button class="feat-card-icon-btn">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#F9F7F3" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="feat-card-num">01</div>
+        </div>
+
+        <!-- Card 2: Factory -->
+        <div class="feat-card" data-idx="1">
+          <img loading="lazy" decoding="async" class="feat-card-img" src="assets/images/img-09.jpg" alt="Factory Precision">
+          <div class="feat-card-overlay"></div>
+          <div class="feat-card-content">
+            <div class="feat-card-top">
+              <div class="feat-card-title" data-i18n="feat2_title">Factory<br>Precision</div>
+              <div class="feat-card-eyebrow" data-i18n="feat2_eyebrow">Our Process</div>
+            </div>
+            <div class="feat-card-bottom">
+              <div class="feat-card-desc" data-i18n="feat2_desc">Every beam, panel and connector is CNC-cut to ±0.5 mm tolerance at our Brașov facility. Numbered, packaged and ready to raise.</div>
+              <div class="feat-card-action">
+                <button class="feat-card-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" data-i18n="feat_learn">Learn more</button>
+                <button class="feat-card-icon-btn">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#F9F7F3" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="feat-card-num">02</div>
+        </div>
+
+        <!-- Card 3: Assembly -->
+        <div class="feat-card" data-idx="2">
+          <img loading="lazy" decoding="async" class="feat-card-img" src="assets/images/img-10.jpg" alt="7-Day Assembly">
+          <div class="feat-card-overlay"></div>
+          <div class="feat-card-content">
+            <div class="feat-card-top">
+              <div class="feat-card-title" data-i18n="feat3_title">7-Day<br>Assembly</div>
+              <div class="feat-card-eyebrow" data-i18n="feat3_eyebrow">On-site</div>
+            </div>
+            <div class="feat-card-bottom">
+              <div class="feat-card-desc" data-i18n="feat3_desc">A crew of four erects the Sosna S in a single week. No heavy equipment needed — just the kit, the manual and a plot of land.</div>
+              <div class="feat-card-action">
+                <button class="feat-card-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" data-i18n="feat_learn">Learn more</button>
+                <button class="feat-card-icon-btn">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#F9F7F3" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="feat-card-num">03</div>
+        </div>
+
+        <!-- Card 4: Comfort -->
+        <div class="feat-card" data-idx="3">
+          <img loading="lazy" decoding="async" class="feat-card-img" src="assets/images/img-11.jpg" alt="Year-round Comfort">
+          <div class="feat-card-overlay"></div>
+          <div class="feat-card-content">
+            <div class="feat-card-top">
+              <div class="feat-card-title" data-i18n="feat4_title">Year-Round<br>Comfort</div>
+              <div class="feat-card-eyebrow" data-i18n="feat4_eyebrow">Insulation</div>
+            </div>
+            <div class="feat-card-bottom">
+              <div class="feat-card-desc" data-i18n="feat4_desc">200 mm mineral wool, vapour barrier and ventilated facade keep the interior at 22 °C when it is −35 °C outside.</div>
+              <div class="feat-card-action">
+                <button class="feat-card-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" data-i18n="feat_learn">Learn more</button>
+                <button class="feat-card-icon-btn">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#F9F7F3" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="feat-card-num">04</div>
+        </div>
+    </div>
+
+  </div>
+</section><!-- /services -->
+
+<!-- ── WHERE WE DELIVER ── -->
+<section class="deliv-editorial sec" id="delivery">
+  <div class="de-inner">
+
+    <!-- Top row: eyebrow + headline left, two body columns right -->
+    <div class="de-top">
+      <div class="de-top-left">
+        <div class="de-eyebrow">Delivery &amp; Logistics</div>
+        <h2 class="de-headline">We deliver<br>across Europe.</h2>
+      </div>
+      <div class="de-top-right">
+        <p class="de-body">Every delivery route is planned individually — costs, timelines and permits differ by country. We handle the full logistics chain from our production facility in Siberia to your plot, including customs documentation and country-specific import permits.</p>
+        <p class="de-body">Typical transit to Central Europe runs 18–28 days by rail and road. We send live tracking links the moment your shipment departs, and a project coordinator stays reachable throughout.</p>
+      </div>
+    </div>
+
+    <!-- Middle: large photo with text overlay -->
+    <div class="de-photo-block">
+      <img loading="lazy" decoding="async" src="assets/images/img-12.jpg" alt="SiberianFrame production" class="de-photo-main">
+          </div>
+
+
+  </div>
+</section>
+
+
+
+
+
+<!-- ── BUILD PROCESS ── <section class="proc-sec" id="process">
+  <div class="proc-inner">
+    <div class="proc-head">
+      <div>
+        <div class="proc-eyebrow" data-i18n="proc_eyebrow">How it works</div>
+        <div class="proc-headline" data-i18n="proc_headline">From order<br>to move-in</div>
+      </div>
+      <p class="proc-sub" data-i18n="proc_sub">Five clear stages, one fixed price. No surprises from foundation to keys-in-hand.</p>
+    </div>
+    <div class="proc-steps">
+      <div class="proc-step">
+        <div class="proc-num">01</div>
+        <div class="proc-step-img">
+          <img src="assets/images/img-13.jpg" alt="Consultation" loading="lazy">
+        </div>
+        <div class="proc-step-title" data-i18n="proc1_title">Consultation</div>
+        <div class="proc-step-desc" data-i18n="proc1_desc">Online call with our architect. We review your plot, local permits and choose the right model.</div>
+      </div>
+      <div class="proc-step">
+        <div class="proc-num">02</div>
+        <div class="proc-step-img">
+          <img src="assets/images/img-14.jpg" alt="Production" loading="lazy">
+        </div>
+        <div class="proc-step-title" data-i18n="proc2_title">Production</div>
+        <div class="proc-step-desc" data-i18n="proc2_desc">CNC-cut at our Brașov factory. Every element numbered and quality-checked before packaging.</div>
+      </div>
+      <div class="proc-step">
+        <div class="proc-num">03</div>
+        <div class="proc-step-img"><img loading="lazy" decoding="async" src="assets/images/img-15.jpg" alt="Delivery" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+        <div class="proc-step-title" data-i18n="proc3_title">Delivery</div>
+        <div class="proc-step-desc" data-i18n="proc3_desc">Numbered kit arrives by truck to your site. Typical transit 2–4 weeks depending on destination.</div>
+      </div>
+      <div class="proc-step">
+        <div class="proc-num">04</div>
+        <div class="proc-step-img">
+          <img src="assets/images/img-16.jpg" alt="Assembly" loading="lazy">
+        </div>
+        <div class="proc-step-title" data-i18n="proc4_title">Assembly</div>
+        <div class="proc-step-desc" data-i18n="proc4_desc">Our crew of four raises the frame in 7–21 days using the numbered kit. No heavy machinery needed.</div>
+      </div>
+      <div class="proc-step">
+        <div class="proc-num">05</div>
+        <div class="proc-step-img"><img loading="lazy" decoding="async" src="assets/images/img-17.jpg" alt="Move in" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+        <div class="proc-step-title" data-i18n="proc5_title">Move in</div>
+        <div class="proc-step-desc" data-i18n="proc5_desc">Turnkey handover with full documentation. Your A-Frame is ready for year-round living.</div>
+      </div>
+    </div>
+  </div>
+</section>ion><!-- /process -->
+
+
+
+<!-- ── REVIEWS ── -->
+<section class="rev-sec" id="reviews">
+  <div class="rev-inner">
+    <div class="rev-head">
+      <div>
+        <div class="rev-eyebrow" data-i18n="rev_eyebrow">Reviews</div>
+        <div class="rev-headline" data-i18n="rev_headline" style="white-space:nowrap;font-size:clamp(1.8rem,3.5vw,3.8rem)!important;">Our Clients Love It</div>
+      </div>
+      <div class="rev-nav-arrows">
+        <button class="rev-arr-btn" id="revPrev" aria-label="Previous" onclick="revScroll(-1)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button class="rev-arr-btn" id="revNext" aria-label="Next" onclick="revScroll(1)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="rev-grid">
+      <div class="rev-card">
+        <div class="rev-card-photo"><img src="assets/images/img-18.jpg" alt="kedr" loading="lazy"></div>
+        <p class="rev-quote">"The kit arrived perfectly numbered. Our crew assembled the Kedr M in 11 days — ahead of schedule. The quality of the timber is outstanding."</p>
+        <div class="rev-meta">
+          <div class="rev-avatar"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="#D4C5A9"/><text x="20" y="25" text-anchor="middle" font-family="Jost,sans-serif" font-size="13" font-weight="600" fill="#14190F">MB</text></svg></div>
+          <div>
+            <div class="rev-name">Markus B.</div>
+            <div class="rev-loc">Bavaria, Germany</div>
+          </div>
+          <div class="rev-rating"><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        </div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-card-photo"><img src="assets/images/img-19.jpg" alt="sosna" loading="lazy"></div>
+        <p class="rev-quote">"We have been living in our Sosna S for two winters now. At −28 °C outside, it is 22 °C inside. Incredible insulation for such a light structure."</p>
+        <div class="rev-meta">
+          <div class="rev-avatar"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="#8A9E8A"/><text x="20" y="25" text-anchor="middle" font-family="Jost,sans-serif" font-size="13" font-weight="600" fill="#F9F7F3">АК</text></svg></div>
+          <div>
+            <div class="rev-name">Andrei M.</div>
+            <div class="rev-loc">Bucharest, Romania</div>
+          </div>
+          <div class="rev-rating"><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        </div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-card-photo"><img src="assets/images/img-20.jpg" alt="listv" loading="lazy"></div>
+        <p class="rev-quote">"The A-Frame team handled everything — from permitting advice to the final walkthrough. Transparent pricing with no hidden costs. We ordered the Listvennitsa L."</p>
+        <div class="rev-meta">
+          <div class="rev-avatar"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="#C4956A"/><text x="20" y="25" text-anchor="middle" font-family="Jost,sans-serif" font-size="13" font-weight="600" fill="#F9F7F3">IM</text></svg></div>
+          <div>
+            <div class="rev-name">Ioana M.</div>
+            <div class="rev-loc">Cluj-Napoca, Romania</div>
+          </div>
+          <div class="rev-rating"><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        </div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-card-photo"><img src="assets/images/img-21.jpg" alt="kedr2" loading="lazy"></div>
+        <p class="rev-quote">"We built the Kedr S on a steep slope in Austria. The team adapted the foundation plan without extra charge. The whole process felt seamless."</p>
+        <div class="rev-meta">
+          <div class="rev-avatar"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="#A3B5A0"/><text x="20" y="25" text-anchor="middle" font-family="Jost,sans-serif" font-size="13" font-weight="600" fill="#14190F">SW</text></svg></div>
+          <div>
+            <div class="rev-name">Stefan W.</div>
+            <div class="rev-loc">Salzburg, Austria</div>
+          </div>
+          <div class="rev-rating"><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        </div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-card-photo"><img src="assets/images/img-22.jpg" alt="sosna2" loading="lazy"></div>
+        <p class="rev-quote">"Six months in our Sosna M and we have zero regrets. The larch cladding has already taken on a beautiful silver tone. Every neighbour asks about it."</p>
+        <div class="rev-meta">
+          <div class="rev-avatar"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="#C9B99A"/><text x="20" y="25" text-anchor="middle" font-family="Jost,sans-serif" font-size="13" font-weight="600" fill="#14190F">АЛ</text></svg></div>
+          <div>
+            <div class="rev-name">Sofie V.</div>
+            <div class="rev-loc">Brussels, Belgium</div>
+          </div>
+          <div class="rev-rating"><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        </div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-card-photo"><img src="assets/images/img-23.jpg" alt="listv2" loading="lazy"></div>
+        <p class="rev-quote">"Delivery to Finland was flawless — customs, permits, even offloading at our remote plot. SiberianFrame coordinated everything. Assembly in 14 days."</p>
+        <div class="rev-meta">
+          <div class="rev-avatar"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="#6B8E78"/><text x="20" y="25" text-anchor="middle" font-family="Jost,sans-serif" font-size="13" font-weight="600" fill="#F9F7F3">PH</text></svg></div>
+          <div>
+            <div class="rev-name">Pekka H.</div>
+            <div class="rev-loc">Rovaniemi, Finland</div>
+          </div>
+          <div class="rev-rating"><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        </div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-card-photo"><img src="assets/images/img-24.jpg" alt="kedr3" loading="lazy"></div>
+        <p class="rev-quote">"The structural quality exceeds anything we priced locally. Our Kedr L passed the Swiss building inspection first try. Worth every euro."</p>
+        <div class="rev-meta">
+          <div class="rev-avatar"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="#B8A898"/><text x="20" y="25" text-anchor="middle" font-family="Jost,sans-serif" font-size="13" font-weight="600" fill="#14190F">TR</text></svg></div>
+          <div>
+            <div class="rev-name">Thomas R.</div>
+            <div class="rev-loc">Zurich, Switzerland</div>
+          </div>
+          <div class="rev-rating"><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        </div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-card-photo"><img src="assets/images/img-25.jpg" alt="sosna3" loading="lazy"></div>
+        <p class="rev-quote">"We run our Sosna S as a holiday rental. Guests consistently rate it 5 stars. Bookings are full six months ahead — the house sells itself."</p>
+        <div class="rev-meta">
+          <div class="rev-avatar"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="#9EB5B0"/><text x="20" y="25" text-anchor="middle" font-family="Jost,sans-serif" font-size="13" font-weight="600" fill="#14190F">MK</text></svg></div>
+          <div>
+            <div class="rev-name">Marta K.</div>
+            <div class="rev-loc">Zakopane, Poland</div>
+          </div>
+          <div class="rev-rating"><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        </div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-card-photo"><img src="assets/images/img-26.jpg" alt="listv3" loading="lazy"></div>
+        <p class="rev-quote">"From first inquiry to signing took only one week. The configurator made it easy to understand costs upfront. No surprises, no delays."</p>
+        <div class="rev-meta">
+          <div class="rev-avatar"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="#C4A882"/><text x="20" y="25" text-anchor="middle" font-family="Jost,sans-serif" font-size="13" font-weight="600" fill="#14190F">LB</text></svg></div>
+          <div>
+            <div class="rev-name">Luca B.</div>
+            <div class="rev-loc">Trento, Italy</div>
+          </div>
+          <div class="rev-rating"><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        </div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-card-photo"><img src="assets/images/img-27.jpg" alt="kedr4" loading="lazy"></div>
+        <p class="rev-quote">"Our Kedr M sits on a lake in Sweden. The panoramic glazing on the gable end is extraordinary — we watch the northern lights from our sofa."</p>
+        <div class="rev-meta">
+          <div class="rev-avatar"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="#7A9E8A"/><text x="20" y="25" text-anchor="middle" font-family="Jost,sans-serif" font-size="13" font-weight="600" fill="#F9F7F3">ES</text></svg></div>
+          <div>
+            <div class="rev-name">Erik S.</div>
+            <div class="rev-loc">Östersund, Sweden</div>
+          </div>
+          <div class="rev-rating"><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- /reviews -->
+
+
+
+<section class="faq2-sec" id="faq">
+  <div class="container">
+    <div class="faq2-head">
+      <p class="eyebrow">COMMON QUESTIONS</p>
+      <h2 class="faq2-h2">Everything you need<br>to decide</h2>
+    </div>
+    <div class="faq2-grid">
+      <div class="faq2-col">
+        <div class="faq2-item">
+          <button class="faq2-q">
+            <span>Do you deliver to my country?</span>
+            <span class="faq2-plus" aria-hidden="true">+</span>
+          </button>
+          <div class="faq2-body"><div class="faq2-body-inner">We deliver A-frame kit homes and modular chalets to over 30 countries. Delivery is organized by sea container or specialized transport depending on your location. Ask us for a shipping quote.</div></div>
+        </div>
+        <div class="faq2-item">
+          <button class="faq2-q">
+            <span>How long does production take?</span>
+            <span class="faq2-plus" aria-hidden="true">+</span>
+          </button>
+          <div class="faq2-body"><div class="faq2-body-inner">Standard production takes 60–90 days from contract signing. Rush orders for certain models can be arranged in 45 days. Delivery time is calculated separately based on your destination.</div></div>
+        </div>
+        <div class="faq2-item">
+          <button class="faq2-q">
+            <span>What is included in the kit?</span>
+            <span class="faq2-plus" aria-hidden="true">+</span>
+          </button>
+          <div class="faq2-body"><div class="faq2-body-inner">The kit includes all structural elements: glulam frame, walls, roof panels, insulation, windows and doors. Full turnkey includes interior finish, utilities, and on-site assembly.</div></div>
+        </div>
+        <div class="faq2-item">
+          <button class="faq2-q">
+            <span>Can I order a custom floor plan?</span>
+            <span class="faq2-plus" aria-hidden="true">+</span>
+          </button>
+          <div class="faq2-body"><div class="faq2-body-inner">Yes. We work with custom projects from 35 m² up to 300 m². Our architects will adapt any plan to your plot and local building codes. Custom projects add 3–4 weeks to production.</div></div>
+        </div>
+        <div class="faq2-item">
+          <button class="faq2-q">
+            <span>What warranties do you provide?</span>
+            <span class="faq2-plus" aria-hidden="true">+</span>
+          </button>
+          <div class="faq2-body"><div class="faq2-body-inner">We provide a 5-year structural warranty on all components and a 2-year warranty on windows and hardware. The Siberian larch and cedar used in our frames carry a natural durability rating of 80+ years.</div></div>
+        </div>
+      </div>
+      <div class="faq2-col">
+        <div class="faq2-item">
+          <button class="faq2-q">
+            <span>What are the payment terms?</span>
+            <span class="faq2-plus" aria-hidden="true">+</span>
+          </button>
+          <div class="faq2-body"><div class="faq2-body-inner">Standard terms: 50% deposit to start production, 40% before shipping, 10% upon delivery and handover. For projects over €150,000, we can discuss a phased payment schedule.</div></div>
+        </div>
+        <div class="faq2-item">
+          <button class="faq2-q">
+            <span>Do you provide assembly services abroad?</span>
+            <span class="faq2-plus" aria-hidden="true">+</span>
+          </button>
+          <div class="faq2-body"><div class="faq2-body-inner">Yes, we can send a qualified assembly crew of 3–5 specialists to your country. Assembly of a standard model takes 10–20 days. Travel and accommodation are calculated separately.</div></div>
+        </div>
+        <div class="faq2-item">
+          <button class="faq2-q">
+            <span>How is the house insulated?</span>
+            <span class="faq2-plus" aria-hidden="true">+</span>
+          </button>
+          <div class="faq2-body"><div class="faq2-body-inner">Our panels use 200 mm mineral wool insulation with vapor barrier, achieving U-values of 0.18–0.22 W/m²K. Suitable for climates from −50°C to +40°C without additional adaptation.</div></div>
+        </div>
+        <div class="faq2-item">
+          <button class="faq2-q">
+            <span>Can the house be used year-round?</span>
+            <span class="faq2-plus" aria-hidden="true">+</span>
+          </button>
+          <div class="faq2-body"><div class="faq2-body-inner">Absolutely. All SiberianFrame models are engineered for year-round habitation. The thermal envelope meets Passive House standards in cold climates and stays cool in summer with proper ventilation.</div></div>
+        </div>
+        <div class="faq2-item">
+          <button class="faq2-q">
+            <span>How do I start the process?</span>
+            <span class="faq2-plus" aria-hidden="true">+</span>
+          </button>
+          <div class="faq2-body"><div class="faq2-body-inner">Fill out the contact form or call us — we'll respond within 24 hours. We'll schedule a free consultation, discuss your plot, budget, and goals, and prepare a preliminary cost estimate.</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="faq2-bar">
+      <span class="faq2-bar-text">Still have questions? We're happy to help.</span>
+      <a href="#contact" class="faq2-bar-btn">Book a Free Call</a>
+    </div>
+  </div>
+</section>
+<section class="cont3-sec" id="contact">
+  <!-- Left: photo -->
+  <div class="cont3-photo">
+    <img loading="lazy" decoding="async" src="assets/images/img-28.jpg" alt="SiberianFrame interior">
+  </div>
+
+  <!-- Right: content -->
+  <div class="cont3-content">
+
+    <!-- Top row: heading + description -->
+    <div class="cont3-top">
+      <h2 class="cont3-title" data-i18n="contact_title">Contact</h2>
+      <p class="cont3-sub" data-i18n="contact_sub">Leave a request — our manager will clarify the details and prepare a personalised quote for your plot and budget within 24 hours.</p>
+    </div>
+
+    <!-- Bottom: two columns -->
+    <div class="cont3-cols">
+
+      <!-- Info column -->
+      <div class="cont3-info">
+        <div class="cont3-info-h" data-i18n="contact_info_h">Get in touch</div>
+        <div class="cont3-info-rows">
+          <div class="cont3-info-row">
+            <span class="cont3-info-label" data-i18n="contact_hours_label">Hours</span>
+            <span>Mon — Sat<br>9:00 — 19:00 EET</span>
+          </div>
+          <div class="cont3-info-row">
+            <span class="cont3-info-label">Email</span>
+            <a href="mailto:hello@siberianframe.com">hello@siberianframe.com</a>
+          </div>
+          <div class="cont3-info-row">
+            <span class="cont3-info-label">Phone</span>
+            <a href="tel:+40268000000">+40 268 000 000</a>
+          </div>
+          <div class="cont3-info-row">
+            <span class="cont3-info-label" data-i18n="contact_city">Location</span>
+            <span>Brașov, Romania</span>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Form column -->
+      <div class="cont3-form-col">
+        <div class="cont3-info-h" data-i18n="contact_form_h">Send a request</div>
+        <form class="cont3-form" id="contact-form" action="https://formspree.io/f/xljdadge" method="POST" target="_blank">
+          <input type="hidden" name="_next" value="https://tinapolyakova27-hub.github.io/frameo/thank-you.html">
+          <div class="cont3-field">
+            <label data-i18n="form_name">Full Name</label>
+            <input type="text" name="name" placeholder="Your name" required>
+          </div>
+          <div class="cont3-field">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="cont3-field">
+            <label>Price Range</label>
+            <select class="cont3-select" name="budget">
+              <option value="" disabled selected>Select your budget</option>
+              <option value="50-80">€50,000 – €80,000</option>
+              <option value="80-120">€80,000 – €120,000</option>
+              <option value="120-180">€120,000 – €180,000</option>
+              <option value="180+">€180,000+</option>
+            </select>
+          </div>
+          <div class="cont3-field">
+            <label data-i18n="form_message">Message</label>
+            <textarea rows="3" name="message" placeholder="Tell us about your project…"></textarea>
+          </div>
+          <button type="submit" class="cont3-order-btn" id="form-submit-btn">Send Request</button>
+        </form>
+      </div>
+
+    </div><!-- /cont3-cols -->
+  </div><!-- /cont3-content -->
+</section>
+<footer class="footer-v2">
+  <div class="footer-v2-inner">
+    <!-- top rule -->
+    <div class="footer-v2-rule"></div>
+
+    <!-- big logo -->
+    <div class="footer-v2-logo-wrap">
+      <img loading="lazy" decoding="async" class="footer-v2-logo" src="assets/images/img-29.png" alt="SiberianFrame">
+    </div>
+
+    <!-- bottom bar -->
+    <div class="footer-v2-bar">
+      <div class="footer-v2-left">
+        <a href="#" data-i18n="footer_projects">Projects</a>
+        <a href="#" data-i18n="footer_delivery">Delivery</a>
+        <a href="#about" data-i18n="footer_about">About us</a>
+        <a href="#" data-i18n="footer_privacy">Privacy Policy</a>
+      </div>
+      <div class="footer-v2-right">
+        <a href="#services" data-i18n="nav_services">Services</a>
+        <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </div>
+      <div class="footer-v2-icons">
+        <a href="#" aria-label="Instagram" class="footer-v2-social">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+        <a href="#" aria-label="YouTube" class="footer-v2-social">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/>
+            <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+        <a href="mailto:hello@siberianframe.com" aria-label="Email" class="footer-v2-social">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <polyline points="2,4 12,13 22,4"/>
+          </svg>
+        </a>
+        <a href="tel:+40268000000" aria-label="Phone" class="footer-v2-social">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.65 3.45 2 2 0 0 1 3.62 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+        </a>
+      </div><!-- /footer-v2-icons -->
+    </div><!-- /footer-v2-bar -->
+
+    <div class="footer-v2-copy">© 2024 SiberianFrame. All rights reserved.</div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 2D Floor Plan Modal -->
+<div id="mc-floorplan-modal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(10,16,8,0.82);backdrop-filter:blur(6px);align-items:center;justify-content:center;padding:40px 24px">
+  <div style="position:relative;max-width:1000px;width:100%;background:#F9F7F3;border-radius:32px;overflow:hidden;box-shadow:0 32px 80px rgba(0,0,0,0.35)">
+    <button onclick="document.getElementById('mc-floorplan-modal').style.display='none'" style="position:absolute;top:16px;right:16px;width:44px;height:44px;border-radius:50%;border:none;background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:2;transition:background .2s" onmouseenter="this.style.background='rgba(20,25,15,0.07)'" onmouseleave="this.style.background='transparent'">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#14190F" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div style="padding:32px 32px 28px;text-align:center">
+      <p style="font-family:'Jost',sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#8A621E;margin-bottom:20px">Floor Plan · Ground Level</p>
+      <img loading="lazy" decoding="async" src="assets/images/img-30.webp" style="max-width:100%;height:auto;display:block;margin:0 auto;border-radius:24px" alt="2D Floor Plan">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</body></html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- 2D Floor Plan Modal -->
+<div id="mc-floorplan-modal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(10,16,8,0.82);backdrop-filter:blur(6px);align-items:center;justify-content:center;padding:40px 24px">
+  <div style="position:relative;max-width:1000px;width:100%;background:#F9F7F3;border-radius:32px;overflow:hidden;box-shadow:0 32px 80px rgba(0,0,0,0.35)">
+    <button onclick="document.getElementById('mc-floorplan-modal').style.display='none'" style="position:absolute;top:16px;right:16px;width:44px;height:44px;border-radius:50%;border:none;background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:2;transition:background .2s" onmouseenter="this.style.background='rgba(20,25,15,0.07)'" onmouseleave="this.style.background='transparent'">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#14190F" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div style="padding:32px 32px 28px;text-align:center">
+      <p style="font-family:'Jost',sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#8A621E;margin-bottom:20px">Floor Plan · Ground Level</p>
+      <img loading="lazy" decoding="async" src="assets/images/img-31.webp" style="max-width:100%;height:auto;display:block;margin:0 auto;border-radius:24px" alt="2D Floor Plan">
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- V108 — 3D Tour Modal -->
+<div id="mc-tour-modal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(10,16,8,0.88);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:24px">
+  <div style="position:relative;width:100%;height:100%;max-width:1200px;max-height:90vh;background:#0D1A0B;border-radius:32px;overflow:hidden;box-shadow:0 32px 80px rgba(0,0,0,0.5);">
+    <button id="mc-tour-close" onclick="closeTourModal()" style="position:absolute;top:16px;right:16px;width:44px;height:44px;border-radius:50%;border:1px solid rgba(249,247,243,0.25);background:rgba(20,25,15,0.72);backdrop-filter:blur(6px);cursor:pointer;z-index:10;display:flex;align-items:center;justify-content:center;color:#F9F7F3;">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <iframe id="mc-tour-iframe" src="about:blank" style="width:100%;height:100%;border:none;border-radius:32px;" allow="fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
+
+<script>
+/* V108-LAZY — deferred 3D tour loader */
+(function() {
+  var _loaded = false;
+  function loadTour() {
+    if (_loaded) { window._openTourNow && window._openTourNow(); return; }
+    _loaded = true;
+    var s = document.createElement('script');
+    s.src = 'assets/js/tour.js';
+    s.onload = function() {
+      setTimeout(function() { window.openTourModal && window.openTourModal(); }, 50);
+    };
+    document.head.appendChild(s);
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    var btn = document.getElementById('mc-btn-3dtour');
+    if (btn) btn.onclick = loadTour;
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && window.closeTourModal) window.closeTourModal();
+  });
+})();
+</script>
+
+</body></html>
